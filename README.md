@@ -10,7 +10,7 @@ of the methods in State.py and a compatible heuristic for any given two-player g
 
 The files 3-4-5 and Prodeo.bin contain the endgame tablebase and the opening book, respectively. 
 
-To play a game, simply run PlayGame.py, and there will be a text-based interface. Here is an example of a game played:
+To play a game, install the amazing python-chess package and simply run PlayGame.py; there will be a text-based interface. Here is an example of a game played:
 
 1. d4 c6 2. c4 d5 3. Nc3 dxc4 4. e4 b5 5. a4 b4 6. Na2 Nf6 7. e5 Nd5 8. Bxc4 e6 9. Nf3 Be7 10. Bd2 a5 11. Nc1 Nd7
 12. Nb3 Bb7 13. O-O h6 14. Qc2 Rc8 15. Qe4 c5 16. Rfc1 Kf8 17. Qe2 g5 18. Nxc5 Nxc5 19. dxc5 Bxc5 20. Ba6 Bxa6 
