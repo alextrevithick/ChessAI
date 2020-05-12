@@ -6,8 +6,7 @@ and incorporates opening book compatibility, an endgame Syzygy tablebase, and qu
 so that only quiet (non-quiescent) positions are evaluated. There is a novel heuristic incorporated.
 
 Note that the ABP implementation inside AlphaBeta.py is not chess-specific and only requires an implementation
-of the methods in State.py for any given two-player game. The default search depth is 3 (because this is Python
-and I have a MacBook) not counting the depth of the quiescence. 
+of the methods in State.py and a compatible heuristic for any given two-player game. The default search depth is 3 (because this is Python and I have a MacBook) not counting the depth of the quiescence. 
 
 The files 3-4-5 and Prodeo.bin contain the endgame tablebase and the opening book, respectively. 
 
